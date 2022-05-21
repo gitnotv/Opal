@@ -144,11 +144,11 @@ async def command_error(ctx, error):
 async def on_ready():
     print(f"{client.user} has loaded.")
     await client.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="/help"))
-    await client.load_extension("cogs.Ban_Util")
-    await client.load_extension("cogs.Kick_Util")
-    await client.load_extension("cogs.Prefix")
-    await client.load_extension("cogs.Help")
-    await client.load_extension("cogs.Mute")
+    await client.load_extension("Opal.cogs.Ban_Util")
+    await client.load_extension("Opal.cogs.Kick_Util")
+    await client.load_extension("Opal.cogs.Prefix")
+    await client.load_extension("Opal.cogs.Help")
+    await client.load_extension("Opal.cogs.Mute")
 
 
 
