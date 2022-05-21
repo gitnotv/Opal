@@ -1,9 +1,9 @@
 
 
 import setuptools
-setuptools.setup(name='time_converter',
+setuptools.setup(name='Opal',
 version='0.1',
-description='Converts basic time units',
+description='Opal bot',
 url='#',
 author='max',
 install_requires=['opencv-python'],
