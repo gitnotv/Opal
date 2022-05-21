@@ -5,7 +5,7 @@ import sqlite3 as db
 import aiosqlite as db2
 import re
 from discord import app_commands
-import Embeds
+
 
 
 # Gets prefix using guild_id
