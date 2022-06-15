@@ -12,8 +12,7 @@ class Help(commands.Cog):
     async def help(self, interaction: discord.Interaction):
 
         #Base embed
-        embed = discord.Embed(title=f"Help", description=f"Displaying all the slash commands available to your guild.", colour=discord.Colour.magenta())
-        embed.add_field(name="Commands:",value=f"**Prefix:** \n>   `Usage:` /prefix <prefix> \n>   `Description:` Changes your bot prefix for your server!\n**Kick:** \n>   `Usage:` /kick <member> [reason] \n>   `Description:` Kicks specific member(s)\n **Ban:** \n>   `Usage:` /ban <member> [reason] \n>   `Description:` Bans specific member(s)\n **Unban:** \n>   `Usage:` /unban <member> [reason] \n>   `Description:` Unbans specific member(s)")
+        embed = discord.Embed(title=f"Help", description=f"Now migrating to a website, you can view all of the bot's commands here! \n [View bot commands.](https://gitnotv.github.io/opal-/)", colour=discord.Colour.magenta())
         await interaction.response.send_message(embed=embed, ephemeral=True)
 
 
