@@ -44,7 +44,7 @@ async def get_prefix(client, message):
  
 
 # Token
-token = 'OTUyMTI0ODY3MTg3MTk1OTU1.YixdYQ.2D7_vkwU8Q3wPzHrHL50rzIej2Q'
+token = 'bot_token'
 
 
 # Intents
